@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TableLayout;
 
+import com.tectone.doubleguard.BadgeListAdapt;
 import com.tectone.doubleguard.BaseFragment;
 import com.tectone.doubleguard.R;
 import com.tectone.doubleguard.RecommandListData;

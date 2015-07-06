@@ -24,6 +24,7 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.tectone.doubleguard.BadgeListAdapt;
 import com.tectone.doubleguard.BaseFragment;
 import com.tectone.doubleguard.R;
 import com.tectone.doubleguard.RecommandListData;
