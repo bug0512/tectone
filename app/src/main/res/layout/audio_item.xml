@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tectone.doubleguard.StyledTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4f4f4"
+    android:gravity="center"
+    android:paddingBottom="14dp"
+    android:paddingTop="14dp"
+    android:text="Audio 01"
+    android:textColor="#4e4e4e"
+    android:textSize="16sp"
+    androidhuman:typeface="HelveticaLT55Roman.ttf" />

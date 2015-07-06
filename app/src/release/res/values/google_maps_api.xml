@@ -1,0 +1,18 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=DF:77:A3:07:5E:CA:97:94:F9:C3:E7:AD:9B:B6:69:0B:C1:B8:BA:87%3Bcom.tectone.doubleguard.maps
+
+    You can also add your credentials to an existing key, using this line:
+    DF:77:A3:07:5E:CA:97:94:F9:C3:E7:AD:9B:B6:69:0B:C1:B8:BA:87;com.tectone.doubleguard.maps
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        YOUR_KEY_HERE
+    </string>
+</resources>

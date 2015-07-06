@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/alert_master_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="293.3dp"
+            android:layout_height="223.6dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.tectone.doubleguard.StyledTextView
+                android:layout_width="fill_parent"
+                android:layout_height="166.3dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:gravity="center"
+                android:lineSpacingExtra="6dp"
+                android:text="Are you sure you want to apply this scene?"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                androidhuman:typeface="HelveticaLT55Roman.ttf" />
+
+            <LinearLayout
+                android:layout_width="293.3dp"
+                android:layout_height="57.3dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <com.tectone.doubleguard.StyledTextView
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="57.3dp"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="0.5"
+                    android:background="#ED5C77"
+                    android:gravity="center"
+                    android:text="Cancel"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    androidhuman:typeface="FuturaStd-Heavy.ttf" />
+
+                <LinearLayout
+                    android:layout_width="0.2dp"
+                    android:layout_height="57.3dp"
+                    android:background="#ffffff"></LinearLayout>
+
+                <com.tectone.doubleguard.StyledTextView
+                    android:id="@+id/apply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="57.3dp"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="0.5"
+                    android:background="#ED5C77"
+                    android:gravity="center"
+                    android:text="Apply"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    androidhuman:typeface="FuturaStd-Heavy.ttf" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

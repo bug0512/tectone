@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!--============================================================================
+ * File Name	: kit.xml
+ * Description	: kit select 이미지
+ *
+ * (c)Copyright 2104, TECTONE Co., Ltd. All rights reserved
+ *
+ * Init. Date	: 2014-10-16
+ * Created by	: jhLee
+ * Written by	: jhLee
+ ============================================================================-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/badge_browse_output_05_p" android:state_selected="true" />
+
+    <item android:drawable="@drawable/badge_browse_output_05_n" android:state_pressed="true" />
+
+    <item android:drawable="@drawable/badge_browse_output_05_d" />
+
+</selector>

@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    tools:context="com.androidhuman.example.navigationdrawer.basicfragments.app.TextFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="17.3dp"
+        android:weightSum="1">
+
+        <TableLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01" />
+
+        <ImageButton
+            android:id="@+id/slide_b_button"
+            android:layout_width="17.3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@drawable/slide_button"
+            android:clickable="true" />
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.76"
+            android:baselineAligned="false"
+            android:clickable="false"
+            android:textAlignment="center">
+
+            <com.tectone.doubleguard.StyledTextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/Shop"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#4e4e4e"
+                android:textSize="26sp"
+                androidhuman:typeface="FuturaStd-Heavy.ttf" />
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout4"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.025" />
+
+        <TableLayout
+            android:id="@+id/tableLayout5"
+            android:layout_width="17.3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@drawable/ic_search_n"
+            android:clickable="true" />
+
+        <TableLayout
+            android:id="@+id/tableLayout6"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2.7dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="65dp"
+        android:background="#ff424242"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="78dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/kit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kit" />
+
+        <ImageButton
+            android:id="@+id/sensor_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sensor" />
+
+        <ImageButton
+            android:id="@+id/action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/action" />
+
+        <ImageButton
+            android:id="@+id/activator_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activator" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shop_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="115.3dp"
+        android:background="@drawable/img_shop_kit"
+        android:orientation="horizontal" />
+
+</FrameLayout>

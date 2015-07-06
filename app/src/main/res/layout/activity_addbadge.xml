@@ -1,0 +1,122 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    tools:context="com.androidhuman.example.navigationdrawer.basicfragments.app.TextFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="17.3dp"
+        android:weightSum="1">
+
+        <TableLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01" />
+
+        <ImageButton
+            android:id="@+id/slide_b_button"
+            android:layout_width="17.3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@drawable/ic_back"
+            android:clickable="true" />
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:baselineAligned="false"
+            android:clickable="false"
+            android:textAlignment="center">
+
+            <com.tectone.doubleguard.StyledTextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/add_badge"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#4e4e4e"
+                android:textSize="26sp"
+                androidhuman:typeface="FuturaStd-Heavy.ttf" />
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout4"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.025" />
+        <!--
+        <TableLayout
+            android:layout_width="17.3dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tableLayout5"
+            android:layout_weight="0.15"
+            android:clickable="true"
+            android:background="@drawable/ic_search_n" />-->
+
+        <TableLayout
+            android:id="@+id/tableLayout6"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2.7dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="65dp"
+        android:background="#ff424242"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginTop="78dp"
+        android:orientation="vertical">
+
+        <com.tectone.doubleguard.StyledTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            android:text="@string/add_badge_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#4e4e4e"
+            android:textSize="19sp"
+            androidhuman:typeface="HelveticaLT55Roman.ttf" />
+
+        <!--badge 등록 전 화면-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_info_img" />
+
+        <com.tectone.doubleguard.StyledTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="22dp"
+            android:text="@string/wait_badge"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#4e4e4e"
+            android:textSize="16sp"
+            androidhuman:typeface="HelveticaLT65Medium.ttf" />
+
+    </LinearLayout>
+
+</FrameLayout>

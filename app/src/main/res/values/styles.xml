@@ -1,0 +1,16 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CustomSeekBar" parent="android:Widget.SeekBar">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:thumb">@drawable/img_progress_point</item>
+        <!-- 바 썸네일 대체 그림 지정 -->
+        <item name="android:max">150</item>
+        <!-- 최대 길이 -->
+        <item name="android:progress">75</item>
+    </style>
+</resources>

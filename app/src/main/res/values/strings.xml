@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Double Guard</string>
+    <string name="logo_text">Double Guard</string>
+    <string name="logo_desc">FOR THE FAMILY</string>
+    <string name="system_title">SYSTEM SETTING</string>
+    <string name="codec_title">CODEC SETTING</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Shop">Shop</string>
+    <string name="Browse">Browse</string>
+    <string name="Sensor">Sensor</string>
+    <string name="Dashboard">Dashboard</string>
+    <string name="Action">Action</string>
+    <string name="noti">Choose Modules!</string>
+    <string name="badge_name"></string>
+    <string name="badge_content"></string>
+    <string name="Suggestion">Suggestion</string>
+    <string name="badge_detail">Badge Detail</string>
+    <string name="title_activity_dashboard_detail">DashboardDetail</string>
+    <string name="sensor_desc">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Integer blandit lacus augue,
+                    fermentum cursus mauris facilisis id. Aenean
+                    id accumsan leo.</string>
+    <string name="add_badge">Add a Badge</string>
+    <string name="add_badge_title">Place yor device owner the Badge to begin starting</string>
+    <string name="wait_badge">Waiting for Badge...</string>
+    <string name="title_activity_add_badge">AddBadge</string>
+    <string name="title_activity_add_badge_setp_one">AddBadgeSetpOne</string>
+
+    <string name="dialog_title_proximity">Proximity</string>
+    <string name="dialog_title_near">Near</string>
+    <string name="dialog_title_speaker">Speaker</string>
+    <string name="dialog_title_led">LED</string>
+
+    <string name="dialog_sub_sensor">Sensor</string>
+    <string name="dialog_sub_proximity_activator">Proximity Activator</string>
+    <string name="dialog_sub_action">Action</string>
+    <string name="title_activity_add_badge_step_second" />
+    <string name="no_scence">There is no scene for this Badge yet.</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_dialog_sample">DialogSample</string>
+    <string name="title_activity_user_type_choice">UserTypeChoiceActivity</string>
+    <string name="title_activity_google_maps">Map</string>
+
+</resources>

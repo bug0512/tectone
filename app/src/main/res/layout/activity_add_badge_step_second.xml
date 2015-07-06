@@ -1,0 +1,190 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="17.3dp"
+        android:weightSum="1">
+
+        <TableLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/badge_detail_back"
+            android:layout_width="17.3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@drawable/ic_back"
+            android:clickable="true" />
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_weight="0.685"
+            android:baselineAligned="false"
+            android:clickable="false"
+            android:textAlignment="center">
+
+            <com.tectone.doubleguard.StyledTextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/add_badge"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#4e4e4e"
+                android:textSize="26sp"
+                androidhuman:typeface="FuturaStd-Heavy.ttf" />
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout4"
+            android:layout_width="3dp"
+            android:layout_height="match_parent" />
+
+        <TableLayout
+            android:id="@+id/tableLayout6"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2.7dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="65dp"
+        android:background="#ff424242"
+        android:orientation="horizontal" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73.2dp"
+        android:divider="#ffffff"
+        android:orientation="vertical"
+        android:scrollbarSize="1dp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbVertical="@drawable/scrollbar_bg"
+        android:scrollbarTrackVertical="@drawable/scrollbar_bg1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <com.tectone.doubleguard.StyledTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Let give it a name!"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#4e4e4e"
+                android:textSize="19sp"
+                androidhuman:typeface="HelveticaLT55Roman.ttf" />
+
+            <!--가로스크롤-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ListView
+                    android:id="@+id/addBadgeTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="#ffffff"
+                    android:divider="#ffffff"
+                    android:dividerHeight="0px" />
+            </LinearLayout>
+            <!--가로스크롤끝-->
+
+            <!--추천영역-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <com.tectone.doubleguard.StyledTextView
+                        android:id="@+id/scene_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="There is no scene of this Badge yet."
+                        android:textAlignment="center"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#ED1C24"
+                        android:textSize="19sp"
+                        androidhuman:typeface="HelveticaLT55Roman.ttf" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/badgeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="11dp"
+                    android:editable="true"
+                    android:hint="Badge name"
+                    android:imeOptions="actionDone"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--추천영역끝-->
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#ED5C77"
+        android:orientation="horizontal">
+
+        <com.tectone.doubleguard.StyledTextView
+            android:id="@+id/finish"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="finish"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#cccccc"
+            android:textSize="24sp"
+            androidhuman:typeface="HelveticaLT65Medium.ttf" />
+
+    </LinearLayout>
+</FrameLayout>

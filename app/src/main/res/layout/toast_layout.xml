@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toast_id"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:background="#333333"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <com.tectone.doubleguard.StyledTextView
+        android:id="@+id/toast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:text="Are you sure you want to apply this scene?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        androidhuman:typeface="HelveticaLT55Roman.ttf" />
+
+</LinearLayout>

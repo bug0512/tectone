@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidhuman="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="17.3dp"
+        android:weightSum="1">
+
+        <TableLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01" />
+
+        <ImageButton
+            android:id="@+id/slide_b_button"
+            android:layout_width="17.3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.155"
+            android:background="@drawable/slide_button"
+            android:clickable="true" />
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_weight="0.66"
+            android:baselineAligned="false"
+            android:clickable="false"
+            android:textAlignment="center">
+
+            <com.tectone.doubleguard.StyledTextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/Dashboard"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#4e4e4e"
+                android:textSize="26sp"
+                androidhuman:typeface="FuturaStd-Heavy.ttf" />
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout4"
+            android:layout_width="3dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/add_new_bade"
+            android:layout_width="17.3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.16"
+            android:background="@drawable/add"
+            android:clickable="true" />
+
+        <TableLayout
+            android:id="@+id/tableLayout6"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2.7dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="65dp"
+        android:background="#ff424242"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <!--Suggest시작-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="68dp"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/dashboard_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:background="#ffffff"
+            android:divider="#ffffff"
+            android:dividerHeight="0px"
+            android:scrollbarSize="1dp"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbarThumbVertical="@drawable/scrollbar_bg"
+            android:scrollbarTrackVertical="@drawable/scrollbar_bg1" />
+
+        <com.tectone.doubleguard.StyledTextView
+            android:id="@+id/emptyRow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="THERE IS NO DATA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            androidhuman:typeface="HelveticaLT65Medium.ttf" />
+
+    </LinearLayout>
+    <!--Suggest끝-->
+
+</FrameLayout>
